@@ -17,7 +17,7 @@ import engine.components.Position;
 import engine.systems.MovementSystem;
 import engine.systems.PlayerControlSystem;
 import engine.systems.RenderSystem;
-
+// TEST
 public class Game extends BasicGame implements KeyListener {
 
 	private World world;
