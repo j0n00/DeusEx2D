@@ -2,22 +2,18 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Simeon/Documents/GitHub/DeusEx2D/lib/slick.jar"/>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Simeon/Documents/GitHub/DeusEx2D/lib/lwjgl.jar">
-		<attributes>
-			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Users/jonathan/Downloads/lwjgl-2.8.4/lwjgl-2.8.4/native/windows"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Simeon/Documents/GitHub/DeusEx2D/lib/artemis.jar">
+	<classpathentry kind="lib" path="lib/artemis.jar">
 		<attributes>
 			<attribute name="javadoc_location" value="http://gamadu.com/artemis/javadoc/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Simeon/Documents/GitHub/DeusEx2D/lib/jbox2d-library-2.1.2.jar">
+	<classpathentry kind="lib" path="lib/slick.jar">
 		<attributes>
-			<attribute name="javadoc_location" value="jar:file:/C:/Users/jonathan/Downloads/jbox2d-library-2.1.2.0-javadoc.jar!/"/>
+			<attribute name="javadoc_location" value="http://slick.cokeandcode.com/javadoc/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="C:/Users/Simeon/Documents/GitHub/DeusEx2D/lib/fizzy.jar"/>
+	<classpathentry kind="lib" path="lib/fizzy.jar"/>
+	<classpathentry kind="lib" path="lib/jbox2d-library-2.1.2.jar"/>
+	<classpathentry kind="lib" path="lib/lwjgl.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
